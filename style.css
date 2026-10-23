@@ -1,2 +1,25 @@
-@import url(src/styles/global.css);
+@import url(./src/styles/global.css);
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.header-navigation{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.itens-navigation{
+    display: flex;
+    gap: 25px;
+}
+
+.itens-navigation li a{
+    color: var(--color-foreground);
+    font-family: var(--font-body);
+}
 
