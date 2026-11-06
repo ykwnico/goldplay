@@ -1,43 +1,43 @@
-<!doctype html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  </head>
-  <body>
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
     <header>
-      <div class="header-navigation">
-        <img src="/src/assets/images/logo.svg" alt="Logo da GoldPlay" />
+        <div class="header-navigation">
+            <img src="./src/assets/images/logo.svg" alt="Logo GoldPlay">
 
-        <nav>
-          <ul class="itens-navigation">
-            <li><a href="">Início</a></li>
-            <li><a href="">Gêneros</a></li>
-            <li><a href="">Catálogo</a></li>
-            <li><a href="">Plano</a></li>
-          </ul>
-        </nav>
-      </div>
+            <nav aria-label="Navegação Principal">                
+                <ul class="itens-navigation">
+                    <li><a href="">Início</a></li>
+                    <li><a href="">Gêneros</a></li>
+                    <li><a href="">Planos</a></li>
+                    <li><a href="">Catálogos</a></li>
+                </ul>
+            </nav>     
+        </div>
 
-      <div>
-        <form action="">
-          <input type="text" />
-          <button><img src="/src/assets/images/lupa.svg" alt="Imagem de lupa" /></button>
-        </form>
+        <div class="container-search">
 
-        <nav>
-          <a href="">Entrar</a>
-        </nav>
-      </div>
+            <form>
+                <input type="text">
+                <button><img src="./src/assets/images/lupa.svg" alt="icon Lupa"></button>
+            </form>
+            
+            <nav>
+                <a href="" class="btnHeader">Entrar</a>
+            </nav>
+
+        </div>
+
     </header>
-
-  </body>
+</body>
 </html>
