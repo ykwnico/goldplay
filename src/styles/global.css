@@ -26,3 +26,21 @@
     --font-body: "Inter", sans-serif;
 
 }
+
+h1{
+    color: var(--color-foreground);
+    font-size: var(--font-size-h1);
+    font-family: var(--font-title);
+    width: 492px;
+    font-weight: 400;
+}
+
+h1 span{
+    color: var(--color-brand);
+}
+
+main p{
+    color: var(--color-foreground);
+    font-size: var(--font-body);
+    font-family: var(--font-body);
+}
